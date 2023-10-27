@@ -1,0 +1,19 @@
+.btn {
+  background-color: var(--first-color);
+  color: var(--white-color);
+  border: 1px solid var(--first-color);
+  width: 160px;
+  height: 44px;
+  border-radius: 21px;
+  cursor: pointer;
+  font-weight: var(--semi-bold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--first-color);
+  }
+}

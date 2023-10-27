@@ -19,19 +19,23 @@ export const Header = () => {
       <div className="container">
         <div className={styles.wrap}>
           <div className={styles.logo}>
-            <Link href="/" className={styles.link} onClick={toogleNavHandler}>
-              <Image
-                src="/logo.svg"
-                alt="Logo Desire"
-                width={97}
-                height={31}
-                priority={true}
-              />
-            </Link>
+            <Image
+              src="/logo.svg"
+              alt="Logo Desire"
+              width={97}
+              height={31}
+              priority={true}
+            />
           </div>
 
           <nav className={`${styles.nav} ${!isToggleNav ? "" : styles.opened}`}>
             <div className={styles.box}>
+              <Link
+                href="/"
+                className={`${styles.link} ${styles["home-link"]}`}
+                onClick={toogleNavHandler}>
+                Home
+              </Link>
               <Link
                 href="/about"
                 className={styles.link}
