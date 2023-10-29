@@ -37,7 +37,6 @@ export const Hero = () => {
   return (
     <Swiper
       className={styles.hero}
-      modules={[Pagination]}
       spaceBetween={50}
       slidesPerView={1}
       autoplay={{

@@ -1,0 +1,35 @@
+.collections {
+  margin-top: 100px;
+  min-width: 320px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  @media (max-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.title {
+  color: var(--first-color);
+  text-align: center;
+  font-family: var(--montserrat);
+  font-size: 36px;
+  font-weight: var(--bold);
+  line-height: 51px;
+}
+
+.divider {
+  width: 250px;
+  height: 1px;
+  margin: 25px auto;
+  background-color: #6D7278;
+}
+
+.text {
+  max-width: 680px;
+  color: var(--second-color);
+  text-align: center;
+  font-weight: var(--regular);
+  line-height: 27px;
+  margin: 0 auto;
+}
