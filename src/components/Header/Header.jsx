@@ -56,6 +56,7 @@ export const Header = () => {
                   alt="Logo Desire"
                   width={97}
                   height={31}
+                  loading="lazy"
                 />
               </Link>
             </div>
