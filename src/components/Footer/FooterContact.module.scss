@@ -32,5 +32,11 @@
   input {
     max-width: 370px;
     width: 100%;
+    transition: .3s;
+
+    &:focus {
+      background-color: var(--first-color);
+      color: var(--white-color);
+    }
   }
 }
