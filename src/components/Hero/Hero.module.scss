@@ -1,6 +1,18 @@
 .hero {
   width: 100%;
   min-height: 812px;
+
+  @media(max-width: 1300px) {
+    min-height: 600px;
+  }
+
+  @media(max-width: 768px) {
+    padding-top: 125px;
+  }
+
+  @media(max-width: 576px) {
+    min-height: 400px;
+  }
 }
 
 .hero-slide {
@@ -13,5 +25,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
