@@ -7,25 +7,26 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import { HeroSlide } from "./HeroSlide";
+import img from "../../../public/chair.png";
 
 const DUMMY_SLIDES = [
   {
     id: "s1",
-    img: "/chair.png",
+    img: img,
     title: "Office furniture",
     text: `Deep v you probably haven't heard of them banh mi synth actually
     affogato.  Aesthetic lyft ethical drinking vinegar austint`,
   },
   {
     id: "s2",
-    img: "/chair.png",
+    img: img,
     title: "Bedroom furniture",
     text: `Deep v you probably haven't heard of them banh mi synth actually
     affogato. Aesthetic lyft ethical drinking vinegar austint`,
   },
   {
     id: "s3",
-    img: "/chair.png",
+    img: img,
     title: "Bathroom furniture",
     text: `Deep v you probably haven't heard of them banh mi synth actually
     affogato. Aesthetic lyft ethical drinking vinegar austint`,

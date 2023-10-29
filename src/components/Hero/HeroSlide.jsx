@@ -6,7 +6,7 @@ export const HeroSlide = ({ img, title, text }) => {
     <>
       <div className={styles.container}>
         <div className={styles["box-image"]}>
-          <Image src={img} alt={title} width={703} height={813} />
+          <Image src={img} alt={title} className={styles.image} />
         </div>
         <div className={styles.content}>
           <h2 className={styles.title}>{title}</h2>
