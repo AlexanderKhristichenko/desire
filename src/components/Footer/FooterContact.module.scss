@@ -1,0 +1,42 @@
+.contact {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.title {
+  font-family: var(--montserrat);
+  font-weight: var(--bold);
+}
+
+.text {
+  color: var(--second-color);
+  font-weight: var(--regular);
+  line-height: 27px;
+}
+
+.email {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  line-height: 28px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  input {
+    max-width: 370px;
+    width: 100%;
+    transition: .3s;
+
+    &:focus {
+      background-color: var(--first-color);
+      color: var(--white-color);
+    }
+  }
+}

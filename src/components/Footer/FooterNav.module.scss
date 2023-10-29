@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--second-color);
+  line-height: 28px;
+  transition: .3s;
+
+  &:hover {
+    color: var(--first-color);
+  }
+}
