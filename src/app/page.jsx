@@ -15,6 +15,20 @@ export default function HomePage() {
         </p>
         <Collection />
       </section>
+      <section className={styles.banner}>
+        <div className="container">
+          <div className={styles.content}>
+            <h2 className={styles["banner-title"]}>
+              Aesthetic ethical drinking
+            </h2>
+            <div className={styles["banner-divider"]}></div>
+            <p className={styles["banner-text"]}>
+              Deep v you probably haven't heard of them banh mi synth actually
+              affogato. Artlyft ethical the one drinking vinegar austint
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
