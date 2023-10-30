@@ -3,6 +3,7 @@ import styles from "./page.module.scss";
 import { Breadcrumbs } from "@/components/UI/Breadcrumbs";
 import Image from "next/image";
 import Link from "next/link";
+import { Collection } from "@/components/UI/Collection";
 
 export const metadata = {
   title: "Desire -  About",
@@ -56,6 +57,7 @@ export default function AboutPage() {
         />
       </section>
       <Details />
+      <Collection />
     </div>
   );
 }

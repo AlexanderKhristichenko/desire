@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./Collection.module.scss";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 export const Collection = () => {
   return (
