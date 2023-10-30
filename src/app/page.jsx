@@ -1,3 +1,4 @@
+import { Blog } from "@/components/Blog/Blog";
 import styles from "./page.module.scss";
 import { Hero } from "@/components/Hero/Hero";
 import { Collection } from "@/components/UI/Collection";
@@ -31,6 +32,7 @@ export default function HomePage() {
         </div>
       </section>
       <Works />
+      <Blog />
     </>
   );
 }
