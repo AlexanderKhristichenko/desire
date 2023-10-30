@@ -1,0 +1,158 @@
+.works {
+  margin-top: 100px;
+
+  @media(max-width: 768px) {
+    margin-top: 50px;
+  }
+}
+
+.title {
+  color: var(--first-color);
+  text-align: center;
+  font-family: var(--montserrat);
+  font-size: 36px;
+  font-weight: var(--bold);
+  line-height: 50px;
+}
+
+.content {
+  margin-top: 40px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  @media (max-width: 768px) {
+    min-height: 200px;
+  }
+}
+
+.content-box {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+
+.box {
+  position: relative;
+  max-width: 270px;
+  width: 100%;
+  padding: 30px 0;
+
+  p {
+    margin-top: 15px;
+    color: var(--second-color);
+    font-weight: var(--regular);
+    line-height: 27px;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--first-color);
+
+  @media (max-width: 768px) {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  h3 {
+    color: var(--first-color);
+    font-family: var(--montserrat);
+    font-size: 16px;
+    font-weight: var(--bold);
+    line-height: 23px;
+  }
+}
+
+.start {
+  &::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+
+    @media (max-width: 768px) {
+      top: 0;
+      left: -24px;
+    }
+  }
+}
+
+.bottom {
+  &::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    background-color: var(--first-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    @media (max-width: 768px) {
+      top: 0;
+      left: -10px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.top {
+  &::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 20px;
+    background-color: var(--first-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media (max-width: 768px) {
+      top: 0;
+      left: -10px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.visible-content-box {
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.hidden-content-box {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
+  }
+}
+
+.hidden {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

@@ -1,6 +1,7 @@
 import styles from "./page.module.scss";
 import { Hero } from "@/components/Hero/Hero";
 import { Collection } from "@/components/UI/Collection";
+import { Works } from "@/components/Works/Works";
 
 export default function HomePage() {
   return (
@@ -29,6 +30,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <Works />
     </>
   );
 }
