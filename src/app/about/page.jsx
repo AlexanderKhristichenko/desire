@@ -13,6 +13,9 @@ export default function AboutPage() {
       <Breadcrumbs className={styles.breadcrumbs}>
         <Link href="/">Home</Link> / <Link href="/about">About</Link>
       </Breadcrumbs>
+      <section className={styles.hero}>
+        <h2>About Us</h2>
+      </section>
     </div>
   );
 }

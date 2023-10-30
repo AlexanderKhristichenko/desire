@@ -1,5 +1,9 @@
 .main {
   min-width: 320px;
+
+  @media(max-width: 768px) {
+    margin-top: 125px;
+  }
 }
 
 .breadcrumbs {
@@ -11,5 +15,33 @@
     &:hover {
       color: var(--first-color);
     }
+  }
+}
+
+.hero {
+  background-image: url('/about-hero-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: var(--bold);
+    line-height: 80px;
+    color: var(--first-color);
+    font-family: var(--montserrat);
+
+    @media(max-width: 768px) {
+      font-size: 36px;
+      line-height: 50;
+    }
+  }
+
+  @media(max-width: 768px) {
+    max-height: 50px;
   }
 }
