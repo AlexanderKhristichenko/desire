@@ -1,3 +1,4 @@
+import { Details } from "@/components/Details/Details";
 import styles from "./page.module.scss";
 import { Breadcrumbs } from "@/components/UI/Breadcrumbs";
 import Image from "next/image";
@@ -54,6 +55,7 @@ export default function AboutPage() {
           loading="lazy"
         />
       </section>
+      <Details />
     </div>
   );
 }
