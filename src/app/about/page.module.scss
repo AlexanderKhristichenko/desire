@@ -1,0 +1,15 @@
+.main {
+  min-width: 320px;
+}
+
+.breadcrumbs {
+  color: var(--second-color);
+
+  a {
+    transition: .3s;
+
+    &:hover {
+      color: var(--first-color);
+    }
+  }
+}
