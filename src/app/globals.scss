@@ -50,3 +50,15 @@ a {
 .swiper-pagination-bullet-active {
   background-color: #FFEF35 !important;
 }
+
+.breadcrumbs {
+  color: var(--second-color);
+
+  a {
+    transition: .3s;
+
+    &:hover {
+      color: var(--first-color);
+    }
+  }
+}
