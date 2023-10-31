@@ -13,7 +13,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className={styles.main}>
-      <Breadcrumbs className={styles.breadcrumbs}>
+      <Breadcrumbs className='breadcrumbs'>
         <Link href="/">Home</Link> / <Link href="/about">About</Link>
       </Breadcrumbs>
       <section className={styles.hero}>
