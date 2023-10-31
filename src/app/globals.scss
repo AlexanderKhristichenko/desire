@@ -18,7 +18,6 @@
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
   font-family: var(--open-sans) sans-serif;
   font-weight: var(--semi-bold);
@@ -39,4 +38,15 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: var(--first-color) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFEF35 !important;
 }
