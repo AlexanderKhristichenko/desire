@@ -1,0 +1,30 @@
+.card {
+  margin-top: 50px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-family: var(--montserrat);
+    font-size: 24px;
+    font-weight: var(--bold);
+    line-height: 38px;
+    margin-top: 10px;
+  }
+
+  p {
+    color: var(--second-color);
+    font-weight: var(--regular);
+    line-height: 27px;
+    margin-top: 10px;
+  }
+}
+
+.tagline {
+  color: #707070;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 15px;
+}

@@ -6,18 +6,6 @@
   }
 }
 
-.breadcrumbs {
-  color: var(--second-color);
-
-  a {
-    transition: .3s;
-
-    &:hover {
-      color: var(--first-color);
-    }
-  }
-}
-
 .hero {
   background-image: url('/about-hero-banner.jpg');
   background-repeat: no-repeat;
