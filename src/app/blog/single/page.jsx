@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function SinglePage() {
   return (
-    <>
+    <div>
       <article className={styles.article}>
         <Breadcrumbs className="breadcrumbs">
           <Link href="/">Home</Link> / <Link href="/blog">Blog</Link> /{" "}
@@ -73,6 +73,6 @@ export default function SinglePage() {
           </div>
         </div>
       </article>
-    </>
+    </div>
   );
 }
