@@ -7,7 +7,13 @@ export const BlogCard = ({ img, title, tagline, text, link }) => {
     <Link href={link}>
       <div className={styles.card}>
         <div>
-          <Image src={img} alt={title} width={730} height={415} />
+          <Image
+            src={img}
+            alt={title}
+            width={730}
+            height={415}
+            loading="lazy"
+          />
         </div>
         <div className={styles.tagline}>{tagline}</div>
         <h2>{title}</h2>

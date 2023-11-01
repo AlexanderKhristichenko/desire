@@ -1,5 +1,22 @@
+.blog {
+  margin-top: 125px;
+}
+
 .wrap {
-  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+}
+
+.blog-info {
+  max-width: 730px;
+
+  @media (max-width: 992px) {
+    margin: 0 auto;
+  }
 }
 
 .quote {

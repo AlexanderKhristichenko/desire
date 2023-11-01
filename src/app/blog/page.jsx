@@ -2,6 +2,7 @@ import { BlogCard } from "@/components/UI/BlogCard";
 import styles from "./page.module.scss";
 import { Breadcrumbs } from "@/components/UI/Breadcrumbs";
 import Link from "next/link";
+import { SideBar } from "@/components/SideBar/SideBar";
 
 export const metadata = {
   title: "Desire -  Blog",
@@ -10,7 +11,7 @@ export const metadata = {
 
 export default function BlogPage() {
   return (
-    <div>
+    <div className={styles.blog}>
       <Breadcrumbs className="breadcrumbs">
         <Link href="/">Home</Link> / <Link href="/blog">Blog</Link>
       </Breadcrumbs>
@@ -47,6 +48,7 @@ export default function BlogPage() {
               text="Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table"
             />
           </div>
+          <SideBar />
         </div>
       </div>
     </div>

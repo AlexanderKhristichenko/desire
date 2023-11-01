@@ -1,6 +1,11 @@
 .card {
   margin-top: 50px;
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   h2 {
     font-family: var(--montserrat);
     font-size: 24px;
