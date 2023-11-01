@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 35px;
+  gap: 15px;
   margin-top: 35px;
 
   img {
@@ -16,14 +16,9 @@
     height: 100%;
   }
 
-  @media(max-width: 768px) {
-    gap: 15px;
-  }
-
   @media(max-width: 576px) {
     display: flex;
     flex-direction: column;
-    gap: 15px;
   }
 }
 
